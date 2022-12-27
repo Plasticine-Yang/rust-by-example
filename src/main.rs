@@ -1,5 +1,8 @@
-mod formatting_print;
+mod primitives;
 
 fn main() {
-    formatting_print::formatting::activity();
+    let (bool_res, int_res) = primitives::tuples::reverse((666, true));
+    println!("bool_res: {}, int_res: {}", bool_res, int_res);
+
+    primitives::tuples::activity();
 }
