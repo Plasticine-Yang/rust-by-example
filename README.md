@@ -11,7 +11,7 @@ My personal practice of the [Rust by Example](https://doc.rust-lang.org/stable/r
 For example:
 
 ```shell
-git switch formatting_print_debug
+git checkout formatting_print_debug
 rustc src/main.rs --our-dir=dist
 ./dist/main
 ```
