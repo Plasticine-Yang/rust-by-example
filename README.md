@@ -12,6 +12,6 @@ For example:
 
 ```shell
 git checkout formatting_print_debug
-rustc src/main.rs --our-dir=dist
+rustc src/main.rs --out-dir=dist
 ./dist/main
 ```
